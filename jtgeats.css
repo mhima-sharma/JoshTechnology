@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +12,15 @@ height: 80px;
 width: 1440px;
 color: #f0faf0;
 font-size: 20px;
+/* position: fixed; */
+}
+.logo{
+    font-family:Squada One;
+    font-weight:400;
+    width: 89px;
+    Size:32px;
+    line-height:20px;
+    font-size: 32px;
 }
 #Frame30{
     display: flex;
@@ -57,6 +69,7 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #1AC073;
+    padding-top:100px ;
 
 }
 .hero{
@@ -66,10 +79,202 @@ a{
     margin-top:250px;
     margin-left:132px;
 }
-.hero1{
-    Width:521.63px;
-    Height:525px;
+.img-hero
+{
+  Width:500.63px;
+    Height:450px;
     position: relative; 
-   top:239.9px;
-    left:774px;
+   /* top:239.9px; */
+    /* left:774px; */
+}   
+#kitchen{
+    Width:1440px;
+    Height:2029px;
+    position: relative;
+    Top:600px;
+    color: #F7F8FA;
+}
+#kitchen-card{
+    Width:1180px;
+    Height:1217px;
+    Top:105px;
+    Left:130px;
+    position: relative;
+}
+#home-card{
+    Width:1180px;
+    Height:1131px;
+    position: relative;
+    Top:87px;
+    border: 1px solid black;
+}
+#eat{
+    Width:Fixed (1,180px);
+    Height:Fixed (336px);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid black;
+    Gap:24px;
+    margin-bottom: 56px;
+}
+.card1{
+    Width:277px;
+    Height:337px;
+    border: 1px solid black; 
+}
+.treanding-item{
+    Width:Hug (1,178px);
+    Height:Hug (410px);
+    position: relative;
+    Top:200px;
+    Gap:37px;
+    text-align: center;
+    border: 1px solid black;
+    background-color:#F7F8FA ;
+
+}
+.scroll-cards{
+    Width:1178px;
+    Height:337px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+}
+.scroll-btn{
+    Width:71.5px;
+    Height:71.5px;
+    position: relative;
+    Top:150.25px;
+    left: 10px;
+    Rotation:180°;
+    border: 1px solid black;
+}
+.card2{
+    Width:277px;
+    Height:337px;
+    position: relative;
+    right: 140px;
+    border: 1px solid black;
+    padding-top: 10px;
+} 
+.scroll-btn-right{
+    Width:71.5px;
+    Height:71.5px;
+    position: relative;
+    Left:1106.5px;
+    bottom: 185px;
+   
+    margin-right: 15px;
+}
+.request-a-dish{
+    Width:Fixed (210px);
+    Height:Fixed (48px);
+    Top:1900px;
+    Left:615px;
+    border-radius:10px;
+    padding: 5px;
+    position: relative;
+    Top:19px;
+    Right:25px;
+    Bottom:19px;
+    Left:25px;
+    Gap:10px;
+    background-color: #1AC073;
+}
+#service-vedio{
+    width: 1440px;
+    height: 860px;
+    position: relative;
+    top: 600px;
+    background-color: #FAFAFA; 
+    
+    
+}
+.vedio-container{
+    width: 1050px;
+    height: 816px;
+    position: relative;
+    left: 195px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    gap: 50px;
+    overflow: visible;
+   
+    
+
+}
+.heading-layout{
+    width: 864px;
+    height: 164px;
+    overflow: visible;
+}
+#h2-layout{
+    width: 750px;
+    height: 114px;}
+   
+.h2-layout{
+    font-family: Montserrat;
+font-weight: 700px;
+font-size: 40px;
+line-height: 57px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #252B42;
+position: relative;
+left: 90px;
+padding-bottom: 50px;
+
+}
+#p-layout{
+    width: 447px;
+    height: 40px;
+    
+}
+.p-latout{
+    font-family: Montserrat;
+font-weight: 500px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #737373;
+position: relative;
+left: 210px;
+margin-bottom: 40px;
+
+
+}
+.vedio-lgt-green{
+  
+    width: 877px;
+    height: 442px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
+    position: relative;
+    border: 1px solid black;
+
+
+}
+/* .video{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
+    border: 1px solid black;
+   position: relative;
+   right: 200px;
+   z-index: 1;
+   left: 230px;
+   margin-bottom: 40px;
+    
+} */
+.light-green{
+    width: 1440px;
+    height: 344px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #C7EACC;
+   z-index: -1;
+   
+
 }
